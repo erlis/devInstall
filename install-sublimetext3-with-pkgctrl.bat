@@ -1,0 +1,2 @@
+choco install sublimetext3
+choco install sublimetext3.packagecontrol
