@@ -20,22 +20,6 @@ If you want to run all in one step, just execute `install-all.bat`
 
 Or you can run a specific script to install specific tool.
 
-### Essential Developer Tools
+### Essential Developer Tools Folder
 
-It includes the following:
-
-* Cmder
-* Postman
-* Git Credentials Manager for Windows
-* Slack
-* WinRAR
-* Remote Desktop Connection Manager
-
-### Network Tools
-
-It includes the following:
-
-* Putty
-* Curl
-
-
+It includes the most used tools by developers

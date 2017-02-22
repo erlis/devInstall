@@ -1,4 +1,4 @@
-rem @echo off
+@echo off
 
 cmd /c cinst ruby -version 2.1.8 --x86
 cmd /c cinst ruby2.devkit --x86
