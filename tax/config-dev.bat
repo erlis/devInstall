@@ -9,6 +9,9 @@ rem ~~~~~~~~~~~~~~~~~~~~~~~~~
 @pushd %~dp0
 cd c:\Projects\tax-management-core\BuildAndDeployment\
 call bundle install
-call bundle exec rake setup_local_dev_env
+call config-ptm-db.bat
+
+call bundle exec rake dev:setup_apphost
+call bundle exec rake dev:setup_iis
 @popd
 
