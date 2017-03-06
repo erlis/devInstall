@@ -6,5 +6,6 @@ function Get-Webclient {
 }
 
 $wc = Get-Webclient;
-$wc.DownloadString('https://chocolatey.org/install.ps1') | out-string;
+iex $wc.DownloadString('https://chocolatey.org/install.ps1');
+
 
