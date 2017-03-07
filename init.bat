@@ -1,7 +1,5 @@
 @echo off 
-call init-powershell.bat
-
-powershell -File .\install-choco.ps1 
+powershell -NoProfile -ExecutionPolicy unrestricted -File .\install-choco.ps1 
 
 SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
 chocolatey feature enable -n allowGlobalConfirmation
